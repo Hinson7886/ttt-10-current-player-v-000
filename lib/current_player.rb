@@ -4,5 +4,6 @@ def turn_count(board)
    if board("X") || board("O")
    counter += 1
    else
+   end
   end
 end

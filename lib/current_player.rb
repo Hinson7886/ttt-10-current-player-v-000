@@ -5,4 +5,4 @@ def turn_count(board)
    #counter += 1
    puts "first position on #{board} is #{board.length} letters long."
   end
-
+end

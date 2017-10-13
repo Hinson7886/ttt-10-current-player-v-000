@@ -1,7 +1,7 @@
 def turn_count(board)
-   counter = 0
-   until counter == 3
+   number_of_turns = 0
+   until number_of_turns == 3
    board.each do |board|
-   counter += 1
+   number_of_turns += 1
   end
 end

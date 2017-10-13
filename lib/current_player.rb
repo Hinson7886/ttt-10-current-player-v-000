@@ -1,8 +1,8 @@
 def turn_count(board)
-   #counter = 0
-   #until counter == 3
+   counter = 0
    board.each do |board|
-   #counter += 1
-   puts "first position on #{board} is #{board.length} letters long."
+   if board("X") || board("O") 
+   counter += 1
+   else
   end
 end
